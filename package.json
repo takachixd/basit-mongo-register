@@ -1,0 +1,11 @@
+{
+  "name": "takachi-mod",
+  "version": "1.0.0",
+  "description": "Takachi Moderation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Takachi",
+  "license": "ISC"
+}
