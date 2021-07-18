@@ -26,6 +26,18 @@ client.on('ready', async() => {
     })
 })
 
+     client.on('message', msg => {
+        if (msg.content === '.tag') {
+          msg.channel.send(utils.tag);
+        }
+      });
+
+
+      client.on('message', msg => {
+        if (msg.content === '!tag') {
+          msg.channel.send(utils.tag);
+        }
+      });
 
 
 client.commands = new Discord.Collection();
